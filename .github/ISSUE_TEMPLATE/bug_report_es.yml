@@ -1,0 +1,49 @@
+name: Reporte de error
+description: Reporta un problema o error en la aplicación Kojiro.
+title: "Error"
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Por favor completa esta plantilla para ayudarnos a resolver el problema más rápido.
+
+  - type: input
+    id: description
+    attributes:
+      label: Descripción del error
+      placeholder: Describe el error aquí
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Pasos para reproducir
+      placeholder: Proporciona los pasos exactos para reproducir el error
+    validations:
+      required: true
+
+  - type: input
+    id: expected
+    attributes:
+      label: Comportamiento esperado
+      placeholder: ¿Qué esperabas que pasara?
+    validations:
+      required: true
+
+  - type: input
+    id: actual
+    attributes:
+      label: Comportamiento actual
+      placeholder: ¿Qué pasó realmente?
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Version
+      placeholder: 1.0.0
+    validations:
+      required: true

@@ -14,7 +14,7 @@ Este repositorio se utiliza para reportar **errores**, solicitar **nuevas funcio
 
 1. Ve a la pestaña [Issues](https://github.com/Kanin-020/Kojiro-Issues/issues).
 2. Haz clic en **New issue**.
-3. Selecciona una plantilla: **Bug Report**, **Feature Request** u **Otro**.
+3. Selecciona una plantilla: **Reporte de error** o **Solicitud de funcionalidad**.
 4. Rellena los campos requeridos en **inglés o español**.
 5. Envía tu incidencia.
 

@@ -1,0 +1,33 @@
+name: Solicitud de funcionalidad
+description: Sugiere una nueva funcionalidad o mejora para la aplicación Kojiro.
+title: "Funcionalidad"
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Por favor describe la funcionalidad o mejora que te gustaría ver.
+
+  - type: input
+    id: feature
+    attributes:
+      label: Descripción de la funcionalidad
+      placeholder: Describe la funcionalidad o mejora
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Caso de uso / Contexto
+      placeholder: ¿Por qué necesitas esta funcionalidad? ¿En qué contexto se usará?
+    validations:
+      required: false
+
+  - type: input
+    id: benefit
+    attributes:
+      label: Beneficio
+      placeholder: ¿Cómo mejoraría esto Kojiro?
+    validations:
+      required: false

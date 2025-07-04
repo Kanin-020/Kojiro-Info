@@ -1,0 +1,33 @@
+name: Feature Request
+description: Suggest a new feature or improvement for the Kojiro application.
+title: "[Feature]"
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please describe the feature or improvement you would like to see.
+
+  - type: input
+    id: feature
+    attributes:
+      label: Feature Description
+      placeholder: Describe the feature or improvement
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Use Case / Context
+      placeholder: Why do you need this feature? In what context will it be used?
+    validations:
+      required: false
+
+  - type: input
+    id: benefit
+    attributes:
+      label: Benefit
+      placeholder: How would this improve Kojiro?
+    validations:
+      required: false
