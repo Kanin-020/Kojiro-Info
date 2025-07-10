@@ -1,4 +1,4 @@
-# 🐛 Kojiro - Repositorio Público de Incidencias
+# 🐛 Kojiro - Incidencias
 
 Bienvenido al rastreador oficial de incidencias de **Kojiro**.
 
@@ -12,7 +12,7 @@ Este repositorio se utiliza para reportar **errores**, solicitar **nuevas funcio
 
 ## 📋 Cómo enviar una incidencia
 
-1. Ve a la pestaña [Issues](https://github.com/Kanin-020/Kojiro-Issues/issues).
+1. Ve a la pestaña [Issues](https://github.com/Kanin-020/Kojiro-Info/issues).
 2. Haz clic en **New issue**.
 3. Selecciona una plantilla: **Reporte de error** o **Solicitud de funcionalidad**.
 4. Rellena los campos requeridos en **español**.
