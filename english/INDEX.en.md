@@ -12,7 +12,7 @@ Welcome. This section contains all relevant information about the application's 
 
 ### 🧪 Technical Evidence
 
-- [📊 Wireshark](WIRESHARK.en.md)
+- [📊 Wireshark](TELEMETRY.en.md)
 
 ### 🐛 Issues and Support
 

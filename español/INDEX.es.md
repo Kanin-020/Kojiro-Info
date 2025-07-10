@@ -12,7 +12,7 @@ Bienvenido/a. Esta sección contiene toda la información relevante sobre la pri
 
 ### 🧪 Evidencias Técnicas
 
-- [📊 Wireshark](WIRESHARK.es.md)
+- [📊 Prueba de telemetría](TELEMETRY.es.md)
 
 ### 🐛 Errores y Ayuda
 
